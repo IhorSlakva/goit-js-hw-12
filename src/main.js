@@ -50,6 +50,10 @@ btnElem.addEventListener('click', async () => {
     const images = await getPhotoByName();
     createGallery(images);
     checkBtnStatus();
+    window.scrollBy({
+       top: 465,
+       behavior: "smooth",
+});
 })
 
 async function getPhotoByName() {
