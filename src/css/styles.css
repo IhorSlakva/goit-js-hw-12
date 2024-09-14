@@ -35,6 +35,7 @@ body {
   padding: 8px 16px;
   background-color: #4e75ff;
   margin-left: 10px;
+  transition: background-color ease 0.3s;
 }
 
 .form-btn:hover {
@@ -97,6 +98,7 @@ p {
   height: 40px;
   background-color: #4e75ff;
   border: none;
+  transition: background-color ease 0.3s;
 }
 
 .btn:hover {
